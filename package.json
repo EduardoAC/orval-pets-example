@@ -1,0 +1,19 @@
+{
+  "name": "orval-pets-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:EduardoAC/orval-pets-example.git",
+  "author": "EduardoAC <EduardoAC@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "generate": "orval generate --config ./orval.config.ts"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "9.0.0",
+    "@tanstack/react-query": "5.55.0",
+    "msw": "2.4.3",
+    "orval": "7.1.0",
+    "prettier": "3.3.3",
+    "typescript": "5.5.4"
+  }
+}
